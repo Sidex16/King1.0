@@ -108,6 +108,7 @@ void FillTask()
     if (!iTasks.is_open())
     {
         cout << "Error opening Task.txt" << endl;
+        _getch();
         return;
     }
 
